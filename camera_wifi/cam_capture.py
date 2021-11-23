@@ -18,7 +18,7 @@ from aruco import aruco_detect
 node_name = "m5_opencv_camera"
 topic_pub_images = "/armpap00/Images"
 topic_cordinates = "/armpap00/cordinates"
-wifi_camera = "http://192.168.0.144/capture"
+wifi_camera = "http://192.168.0.144/capture"  # put your camera IP address here
 window_name = "Armpap_camera"
 path_destination = "/data/"
 img_counter = 0  # !!! Initialize if you do not want to delete the previous captures
