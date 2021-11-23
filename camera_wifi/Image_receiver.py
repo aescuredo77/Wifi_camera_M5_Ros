@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-#import sys, time
 import numpy as np
 import cv2
 import roslib
@@ -23,7 +22,8 @@ if __name__ == '__main__':
         if image_np is not None:
             cv2.imshow("Image reciver", image_np)
             if cv2.waitKey(1) == ord("q"):
+                cv2.destroyAllWindows()
                 break
-            #cv2.destroyAllWindows()
+            
     
     
