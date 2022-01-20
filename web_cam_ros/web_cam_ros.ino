@@ -12,8 +12,8 @@
 #define sub_canal "/armpap00/camera00/cmd"
 
 
-const char* ssid = "Ros_Robotic";
-const char* password = "45276699";
+const char* ssid = "**********";
+const char* password = "********";
 IPAddress server(192, 168, 0, 151);   // Set the rosserial socket server 
 const uint16_t serverPort = port;    // Set the rosserial socket server port 
 char cmd_msg[8]; 
